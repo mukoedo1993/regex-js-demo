@@ -1,0 +1,12 @@
+cat: Smith, Meowsalot
+young dog: Jones, Barksalot
+rabbit: Doe, Fluffy
+
+//[cyr][ao] [] will match any letter within it
+//[a-z]{3}:   <-repeat 3 times for any lower-case letter
+//[a-z]{1,6}:  <-repeat 1~6 times for any lower-case letter
+//[a-z]{1,}: <-repeat 1 or more times for any lower-case letter
+//[a-z]+:  <-repeat 1 or more times for any lower-case letter
+//[a-z\s]+: <-any lower-case alphabet or whitespace
+//[a-z\s]+:\s[a-z]+,\s[a-z]+
+//([a-z\s])+:\s([a-z]+),\s([a-z]+)

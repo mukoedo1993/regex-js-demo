@@ -1,0 +1,3 @@
+There was once an employee named Dwight. Dwigt was not very smart, but he was loyal. I could have promoted dwight but I did not.
+
+//used for built-in regex test within VS code editor.
